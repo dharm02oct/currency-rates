@@ -6,3 +6,4 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 class Pay2Application : Application()
 //very important to declare this in AndroidManifest.xml - android:name=".App"
+//
