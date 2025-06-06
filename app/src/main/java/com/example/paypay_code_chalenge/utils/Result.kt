@@ -1,5 +1,5 @@
 package com.example.paypay_code_chalenge.utils
-
+//this is data class
 data class Result<out T>(val status: Status, val data: T?, val message: String?) {
 
     companion object {
