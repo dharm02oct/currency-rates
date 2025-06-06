@@ -18,6 +18,7 @@ import com.example.paypay_code_chalenge.ui.screens.CurrencyScreen
 import com.example.paypay_code_chalenge.ui.viewmodel.Pay2CurrencyViewModel
 import dagger.hilt.android.AndroidEntryPoint
 // this is main activity
+// mainActivity
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
   private val currencyViewModel: Pay2CurrencyViewModel by viewModels()
